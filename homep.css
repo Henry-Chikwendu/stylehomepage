@@ -1,0 +1,54 @@
+body {
+    background-color: teal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    box-sizing: border-box;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    padding-top: 0.7rem;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.next {
+    padding: 10px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.next:hover {
+    background-color: green;
+}
